@@ -45,6 +45,8 @@ public class Program {
 
                 System.out.println("Packet sent!");
                 while (true);
+            } else if (cmd.equalsIgnoreCase("start-server")) {
+                //ServerManager.startServer();
             }
         }
     }
